@@ -1,0 +1,51 @@
+.bg-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f9d423;
+  font-family: 'Roboto';
+}
+
+.card-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  border-radius: 10px;
+  padding: 60px;
+}
+.heading {
+  font-size: 35px;
+  color: #a35200;
+}
+.para {
+  color: #334155;
+  font-size: 20px;
+  margin-top: 0px;
+  font-weight: 500;
+}
+.face-logo {
+  width: 150px;
+}
+.toss-button {
+  background-color: #f9d423;
+  color: #a35200;
+  border-style: solid;
+  border-width: 0px;
+  border-radius: 5px;
+  padding: 10px;
+  font-weight: bold;
+  margin-top: 25px;
+}
+.count-container {
+  width: 17vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 15px;
+  color: #475569;
+  font-weight: 500;
+}
